@@ -25,7 +25,7 @@ _Create a simple ERC20 and ERC721 tokens that make use of inheritance and import
   
   _submit a link to the IPFS address, it should start with "ipfs.io"._
   
-    My IPFS Address: 
+    My IPFS Address: https://ipfs.io/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3
       
   For the ERC20 and ERC721 tokens,
   
