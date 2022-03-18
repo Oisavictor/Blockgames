@@ -1,0 +1,11 @@
+{
+  "name": "BG NFT",
+  "description": "The first BG NFT i minted, super cool!",
+  "image": "ipfs://bafybeiev6v66qdwfwixnsfmbojiw6scqgjqh473jczyti6xifkiq74btsi",
+  "properties":[
+    {
+      "trait_type": "jagaban",
+      "value": "100"
+    }
+  ]
+}
