@@ -38,11 +38,15 @@ _My Metadata structure details is shown below:_
 
  ```
  Metadata structure: {
-               name : // Any name
-               
-               image : // URL to image on IPFS,
-               
-               description: // Some text
+               "name": "BG NFT",
+               "description": "The first BG NFT i minted, super cool!",
+               "image": "ipfs://bafybeiev6v66qdwfwixnsfmbojiw6scqgjqh473jczyti6xifkiq74btsi",
+               "properties":[
+                 {
+                "trait_type": "jagaban",
+                "value": "100"
+                }
+                ]
      }
 ```
 These tasks has been completed successfully :tada: :relaxed: :+1:
