@@ -32,7 +32,7 @@ _Create a simple ERC20 and ERC721 tokens that make use of inheritance and import
   _submit your contract's etherscan address. All contracts must be verified_
   
      My contract's etherscan Address: 0x7b05e03DFc44e72090C7808859f1a1930DC5fc9a (ERC20)
-                                    : 0x7b05e03DFc44e72090C7808859f1a1930DC5fc9a (ERC721)
+                                    : 0x84A1BBcBf837E99A2ed92E941FD9F33097b01862 (ERC721)
 
 _My Metadata structure details is shown below:_
 
