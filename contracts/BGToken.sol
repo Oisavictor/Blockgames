@@ -7,14 +7,19 @@ import 'https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 contract BGToken is ERC20 {
     
     constructor() ERC20 ("BG Token", "BGT") {
-        _mint(msg.sender, 10000*10**2);
+        _mint(msg.sender, 100*10**4);
         
+    }
+    
+    function decimals() public view virtual override returns (uint8) {
+        return 15;
     }
 
     function buyToken(address from, address receiver, uint256 amount) external virtual {
         require(from != address(0), "ERC20: transfer from the zero address");
         require(receiver != address(0), "ERC20: transfer to the zero address");
         require(amount == 1000, "ERC20: transfer amount ");
+        _mint(receiver, amount);
 
     }
 
