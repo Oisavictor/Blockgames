@@ -15,14 +15,9 @@ contract BGToken is ERC20 {
         return 15;
     }
 
-    function buyToken(address from, address receiver, uint256 amount) external virtual {
-        require(from != address(0), "ERC20: transfer from the zero address");
+    function buyToken(address receiver, uint256 amount) external virtual {
         require(receiver != address(0), "ERC20: transfer to the zero address");
-        require(amount == 1000, "ERC20: transfer amount ");
+        require(amount != 0, "ERC20: transfer amount ");
         _mint(receiver, amount);
 
     }
-
-
-}
-
